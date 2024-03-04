@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MovementScript.cs" />
+    <Compile Include="Assets\Scripts\References\References.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -705,6 +706,10 @@
       <Project>{640F6BC6-B3CA-5BCB-E662-3B8FB142FDE9}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{97B2776B-D5DD-012A-87FB-B7C15366EA3E}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
       <Project>{FD568533-C341-60AB-9812-A190C121713C}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
@@ -768,6 +773,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{50B82E2A-58D2-7A19-87F4-7AE9CBEE28D2}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{2225AF4D-89AB-8265-AEB5-7B85795EB059}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{2DF31D87-698F-BFEF-8CB7-4FDE8887DB61}</Project>
