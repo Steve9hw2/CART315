@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MovementScript : MonoBehaviour
@@ -34,19 +35,18 @@ public class MovementScript : MonoBehaviour
         {
             isGrounded = false;
         }
-        Vector3 vel = moveDirection * magnitude;
+       Vector3 vel = moveDirection * magnitude;
         vel.y = ySpeed;
         conn.Move(vel * Time.deltaTime);
 
         if (conn.isGrounded)
         {
-          //  ySpeed = -0.5f;
             isGrounded = true;
             if (Input.GetButtonDown("Jump"))
             {
                 ySpeed = jumpSpeed;
                 isGrounded = false;
-            }
+           }
         }
 
         if(moveDirection != Vector3.zero)
@@ -55,4 +55,5 @@ public class MovementScript : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotate, rotationSpeed * Time.deltaTime);
         }
     }
+
 }

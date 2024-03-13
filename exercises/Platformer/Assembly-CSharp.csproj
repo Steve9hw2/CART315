@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MovementScript.cs" />
+    <Compile Include="Assets\Scripts\CameraShiftScript.cs" />
     <Compile Include="Assets\Scripts\References\References.cs" />
   </ItemGroup>
   <ItemGroup>
