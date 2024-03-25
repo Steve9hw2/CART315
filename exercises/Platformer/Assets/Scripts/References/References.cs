@@ -12,4 +12,11 @@
  * 
  * Collision - "Unity 3D Collisions, Colliders, & Hitboxes (In 3 Minutes!!) by Royal Skies - https://www.youtube.com/watch?v=mkErt53EEFY
  *            
+ * ITERATION 1 - Iteration1Scene
+ * 
+ * Player Movement - "Unity 3D Character Movement Tutorial" by The Game Dev Cave - https://www.youtube.com/watch?v=1n8EyEk9p40&list=PLoReGgpfex3zCZt2I7LBmOmuVT9S3sqwq&index=7
+ *                   "Unity Movement Relative to Camera" by The Game Dev Cave - https://www.youtube.com/watch?v=reWtxGTyN78&list=PLoReGgpfex3zCZt2I7LBmOmuVT9S3sqwq&index=9
+ *                   
+ * Ground Collision - arvind53, Discussions.Unity.com - https://discussions.unity.com/t/how-do-i-check-if-my-rigidbody-player-is-grounded/33250/4                 
+ *            
 */
