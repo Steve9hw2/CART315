@@ -38,3 +38,11 @@
 
   My second iteration was extremely minimal, in large part due to how busy I was on other projects. (See https://steve9hw2.itch.io/choores for the major project I spent over a dozen hours on instead of working on this).
 I added a basic slider UI element to represent time counting down, as well as a basic collectable with the purpose of adding to the remaining time. Due to a lack of time this week, I've yet to actually get these elements working, but I seek to have a major overhaul of the visuals and feel of the project with my next iteration, now that other, more substantial projects are wrapping up and giving me more time to work.
+
+## Final Iteration Part 1 - April 6th
+
+ Today, I spent time modelling a few basic assets for the project as well as getting the features of Iteration 2 to a functional point. This includes the time slider at the top (which at present lacks any formal UI elements accompanying it) and a proper collectible pickup to replenish it, stylized as a sun. Much to my dismay, my knowledge acquired elsewhere in Unity, especially Unity2D, hasn't been translating as much to Unity3D as I'd have hoped, something made apparent by my current issues making the movement system work right - as the jump is more often locked out of player use than actually usable, making for a frustrating movement system for a time-based game such as this.
+
+![Final Stage 1](/docs/finalthumb1.png "Final Stage 1")
+
+ Regardless of the movement system issues, the proper environment has elevated the feel of the forced perspectives, and makes it clear that given a far, far greater amount of time, some interesting systems could be developped - somewhat reminiscent of those seen in games like Monument Valley, where the camera alters so much of what goes on. My largest issue, aside from the movement system, is finding a way to contextualize the mirrors. As an element of the gameplay, they've been around since the beginning, and it would feel odd to cut them now. However, I find myself drawing blanks when it comes to how I can model them to fit into the cityscape, while also maintaining some degree of challenge to the movement. This question will guide the next stage of development... which will probably be within two days because I'm cramming this all at the end like a psycho. 
