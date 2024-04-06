@@ -59,9 +59,11 @@
     <Analyzer Include="D:\Programs\Unity Hub\Editor\2022.3.12f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\BetterMovementScript.cs" />
     <Compile Include="Assets\Scripts\MovementScript.cs" />
     <Compile Include="Assets\Scripts\CameraShiftScript.cs" />
+    <Compile Include="Assets\Scripts\collectibleScript.cs" />
     <Compile Include="Assets\Scripts\References\References.cs" />
     <Compile Include="Assets\Scripts\CameraRepositionScript.cs" />
   </ItemGroup>
