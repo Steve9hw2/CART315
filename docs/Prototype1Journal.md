@@ -1,6 +1,0 @@
-  My first prototype is focused on my idea which posed the notion of a camera angle as a challenge - as in the player needs to use mirrors to orient themselves around in a space. This prototype uses basic 3D platformer movement and mirrors in the space, with a basic stairwell hidden from view of the main camera but visible in the near mirror.
-  As I worked on making the prototype, I found that mirrors were both surprisingly complex and somewhat simpler than anticipated - namely in that they involve multiple steps, but are relatively straightforward. The movement system I implemented is fairly simple, with a slight coasting issue that my playtester identified.
-  During playtesting, my playtester was amused by the feeling of moving around in relation to mirrors instead of a proper camera, pointing to the notion that an interesting game could be made out of that system. 
-  For my next prototype, I'll explore camera tracking along a path, as to shift the camera forward along the reflective path as the player moves further along, just so that they aren't stuck looking at a tiny pixel to find themselves.
-
- Here is the link to prototype 1: https://github.com/Steve9hw2/cart315/tree/main/exercises/Platformer/builds/windows/prototype1
