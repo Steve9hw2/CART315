@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\BetterMovementScript.cs" />
+    <Compile Include="Assets\Scripts\gigaSunscript.cs" />
     <Compile Include="Assets\Scripts\MovementScript.cs" />
     <Compile Include="Assets\Scripts\CameraShiftScript.cs" />
     <Compile Include="Assets\Scripts\collectibleScript.cs" />
